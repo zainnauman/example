@@ -1,0 +1,7 @@
+a)regular strings are handy for every thing as they're easy to work with.
+b)c style strings allow you to iterate over each character in the string as it is just an array.
+strings allow you to get a lengnth of the string without iterating through it.
+passing a string to a value involves copying the entire string, which takes more space.
+strings do take up more space in memory.
+using c strings is optimal for interfacing with other libraries.
+using c strings is optimal if the assignment specs says so.

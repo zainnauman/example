@@ -1,0 +1,6 @@
+a)to make it so that the same header file isn't read multiple times 
+b)objects are stored in the heap so in order to interact with it on the stack, pointers or references must be used to gain access. If the value of the class is used instead
+of a refernce to an object, it would an infinte recursion error.
+c)shallow
+d)every class has a default constructor that is called when an object is created in main without passing parameters
+e)  NOT SURE 

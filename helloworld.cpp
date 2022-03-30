@@ -1,21 +1,19 @@
 #include <iostream>
 #include <string>
 
-using std::cout;
-using std::cin;
-using std::endl;
-using std::string;
 
 int main(void) {
-   string name;
+   std::string name;
    int age;
-   string DOB;
-   cin >> name;
-   cout << "Name: " << name << endl;
-   cin >> age;
-   cout << "Age: " << age << endl;
-   cin >> DOB;
-   cout << "DOB: " << DOB << endl;
+   std::string DOB;
+   std::cin >> name;
+   
+   std::cin >> age;
+   
+   std::cin >> DOB;
+   std::cout << "Name: " << name << std::endl;
+   std::cout << "Age: " << age << std::endl;
+   std::cout << "DOB: " << DOB << std::endl;
 
    return EXIT_SUCCESS;
 }

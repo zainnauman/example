@@ -1,0 +1,26 @@
+**OUTPUT
+
+7
+(memory address of variable a)
+7
+
+12
+12
+
+7
+
+-3
+6
+2->6
+-3
+6
+
+-3
+20
+20
+-3
+20
+-----
+challenge
+???
+???

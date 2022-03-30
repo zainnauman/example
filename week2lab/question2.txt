@@ -1,0 +1,7 @@
+errors:
+line 13 - pointer must be initialise as null pointer, not null
+line 14 - there is no '*' proceeding double, double cannot be represented as memory address
+line 31 and 6 - method foo cannot increment y as it is a pointer
+line 31 and 6 - method foo will not return x as an increment because it is not dereferencing, just changing it within the scope of the function
+line 23 and 26 - the function calls both have issue because they will either not increment because of the input not being the same as the expected parameters,
+and even if it works, the incremented value will not return
